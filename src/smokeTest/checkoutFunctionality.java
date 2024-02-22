@@ -55,7 +55,7 @@ public class checkoutFunctionality extends extentReportClass   {
 		selectProductColor();
 		enterProductQuantity("2");
 		clickOnAddToCartButton();
-		Thread.sleep(300);
+		Thread.sleep(3000);
         clickOnShoppingcCartIcon();
         clickOnProceedToCheckoutButton();
         Thread.sleep(3000);
